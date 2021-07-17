@@ -1,0 +1,120 @@
+
+body {
+    background-color: rgb(30, 50, 141);
+    background-image: url(Images/Stars.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+   
+}
+
+h1 {
+    color: rgb(87, 87, 87);
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+a:link {
+    text-decoration: none;
+    text-align: center;
+    font-family:cursive;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    
+}
+
+a:visited {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(107, 167, 247);
+    font-size: 26px;
+}
+
+hr {
+    border-style:double;color: rgb(109, 109, 109);
+}
+
+p {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: rgb(255, 255, 255);
+font-size: 18px;
+text-align: center;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(245, 245, 245);
+    font-size: 30px;
+    text-align: center;
+    }
+
+ul {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: yellowgreen;
+    font-size: 20px;
+    text-align: center;
+    }}
+
+    body {
+        margin :0;
+    } 
+    
+    .container{
+        width: 100vw;
+        height: 160vw;
+
+        display: grid;
+
+        grid-template-columns: .3fr 1fr 1fr;
+        grid-template-rows: 150px 1fr 1fr 100px ;
+
+        gap: 10px;
+
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .container div {
+        padding: 10px;
+        border: 1px solid black
+    }
+
+    .header {
+        grid-column-start: 1;
+        grid-column-end: 10;
+        background-color: rgba(0, 0, 0, 0.664);
+        background-image: url(Images/Clouds.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+        background-size: 100% 100%;
+        
+    }
+
+    .content-large {
+        grid-row-start: 2;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        background-color: rgba(0, 0, 0, 0.808);
+        
+    }
+
+    .content-small {
+        grid-row-start: 2;
+        grid-row-end: 5;
+        grid-column-start: 2;
+        grid-column-end: 10;
+        background-color:rgba(0, 0, 0, 0.699);
+    }
+
+    .footer {
+        background-color: rgba(0, 0, 0, 0.616);
+        grid-column: 1 / span 9
+        
+    }
