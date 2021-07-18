@@ -19,7 +19,7 @@ a:link {
     text-decoration: none;
     text-align: center;
     font-family:cursive;
-    color: rgb(255, 255, 255);
+    color: rgb(103, 248, 217);
     font-size: 25px;
     
 }
@@ -28,11 +28,11 @@ a:visited {
     text-decoration: none;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(255, 255, 255);
+    color: rgb(103, 248, 217);
 }
 
 a:hover {
-    color: rgb(107, 167, 247);
+    color: rgb(196, 107, 247);
     font-size: 26px;
 }
 
