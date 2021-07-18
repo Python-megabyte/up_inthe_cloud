@@ -49,7 +49,7 @@ text-align: center;
 
 h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(245, 245, 245);
+    color: rgb(114, 175, 245);
     font-size: 30px;
     text-align: center;
     }
@@ -67,7 +67,7 @@ ul {
     
     .container{
         width: 100vw;
-        height: 160vw;
+        height: 300vw;
 
         display: grid;
 
